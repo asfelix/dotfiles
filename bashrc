@@ -58,8 +58,9 @@ export HISTTIMEFORMAT='%F %T '
 #    105 = fundo púrpura claro
 #    106 = fundo turquesa
 #
+# lscolors generator: http://geoff.greer.fm/lscolors/
 alias ls='ls -lh --color'
-LS_COLORS='di=93:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:'
+LS_COLORS='di=93:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'
 export LS_COLORS
 
 ### Tip:
