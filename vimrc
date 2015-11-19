@@ -96,5 +96,5 @@ if !exists(":DiffOrig")
                   \ | wincmd p | diffthis
 endif
 
-# line numbers
+" line numbers
 set number
