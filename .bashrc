@@ -32,8 +32,8 @@ source alias.sh
 # History with timestamp
 export HISTTIMEFORMAT='%F %T '
 
-eval $( dircolors -b ~/Downloads/LS_COLORS/LS_COLORS )
-alias ls='ls -la --color=auto'
+eval $( dircolors -b ~/LS_COLORS/LS_COLORS )
+alias ls='ls -lh --color=auto'
 
 ### Tip:
 # Reload .bashrc without new login:
