@@ -34,8 +34,14 @@ export HISTTIMEFORMAT='%F %T '
 
 eval $( dircolors -b ~/LS_COLORS/LS_COLORS )
 alias ls='ls -lh --color=auto'
+alias python='python3'
 
 ### Tip:
 # Reload .bashrc without new login:
 #
 #$ source ~/.bashrc
+
+export NVM_DIR="/home/felix/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PS1="\u@\h:\W\\$\[$(tput sgr0)\]"
